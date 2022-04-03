@@ -1,0 +1,572 @@
+/**
+ELEMENTS STATICS
+**/
+
+body {
+    background-color:#4A4849;
+    font-family: 'Roboto', 'sans-serif';
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.content {
+    margin: 20px;
+}
+
+.transparent-bouton {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    width: 120px;
+}
+
+
+.large {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    width: 200px;
+}
+
+
+.line {
+    border: 1px solid #566388;
+    background-color: #566388;
+    width:0.01px;
+    height: 250px;
+}
+
+.lorem  {
+    -webkit-backdrop-filter: blur(15px);
+    background-color: white;
+    backdrop-filter: blur(50px) grayscale(0.5) opacity(0.5);
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    color :#566388;
+    font-weight: 700;
+}
+/*Fin éléments statics*/
+
+/**
+HEADER
+**/
+
+#header {
+    height:40px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.logo {
+    padding-left: 15px;
+    padding-top: 15px;
+    width:20%;
+}
+
+.burger {
+    padding-left:300px;
+    padding-top:20px;
+}
+/*fin header*/
+
+/**HERO SECTION**/
+#hero {
+   background-image: url(../img/multi.jpeg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.filtre {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.bouton-navbar {
+    text-align: center;
+}
+
+
+#hero .content {
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    z-index: 10;
+}
+
+.texte-hero {
+    text-align: center;
+    font-size:30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*fin hero section*/
+
+
+/**MAIN**/
+
+
+#main  {
+    padding-top: 50px;
+}
+/*first-part*/
+.first-part {
+    justify-content:center;
+    display: flex;
+}
+
+
+.texte1  {
+    text-transform: uppercase;
+    color :white;
+}
+
+.text-about1 {
+    padding-left:16px;
+}
+
+
+
+/*fin first-part*/
+
+/*snd-part*/
+.snd-part {
+    justify-content: center;
+    padding-top: 50px;
+    display: flex;
+}
+
+.about-infos {
+    padding-top: 30px;
+    padding-left: 70px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.text-about2 {
+    padding-top: 30px;
+}
+
+
+.new {
+    margin: 0;
+    color :#566388;
+    font-weight: 700;
+}
+
+.bouton-about_info {
+    padding-top: 20px;
+    display: flex;
+}
+
+.dispo {
+    margin: 0;
+    font-size: 25px;
+    color :white;
+    font-weight: 700;
+}
+
+.bouton-about_info button {
+    margin-left: 10px;
+}
+/*fin snd-part*/
+
+/*third-part*/
+.third-part {
+    justify-content: center;
+    padding-top: 50px;
+    display: flex;
+}
+
+.about-infos1{
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bouton-about_info1 {
+    padding-top:40px;}
+
+.text-about3 {
+    padding-left: 40px;
+    padding-top: 50px;
+}
+/*fin third-part*/
+
+/*last-part*/
+.last-part {
+    justify-content: center;
+    padding-top: 50px;
+    display: flex;
+}
+/*fin last-part*/
+/*fin main*/
+
+/**FOOTER**/
+#footer {
+    padding-top: 800px;
+    text-align: center;
+}
+
+.footer-logo{
+    width:30%;
+    padding-left: 40px;
+}
+
+.texte-footer{
+    padding-top: 30px;
+    padding-left: 40px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.social-links ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links ul li a {
+    color: black;
+    padding-left: 10px;
+}
+
+
+.footer-navbar ul {
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-navbar ul li a {
+    color: black;
+    padding-left: 10px;
+}
+
+
+/*fin footer*/
+
+
+/**RESPONSIVE**/
+@media screen and (min-width: 900px) {
+    body {
+        background-color:#4A4849;
+        font-family: 'Roboto', 'sans-serif';
+        background-image: url(../img/background.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding:0;
+        margin:0;
+    }
+    
+    /**HEADER**/
+
+    .filtre {
+        height :100vh;
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    .transparent-bouton {
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+        font-size: 40px;
+        width: 240px;
+    } 
+
+    .large {
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+        font-size: 30px;
+        width: 240px;
+    }
+
+    .logo {
+        padding-left: 15px;
+        padding-top: 6px;
+        width:8%;
+    }
+
+    .burger {
+        padding-left:1300px;
+        padding-top:20px;
+    }
+    /*fin du header*/
+
+    /**HERO**/
+    #hero .content {
+        padding-top: 400px;
+        z-index: 10;
+    }
+
+    .texte-hero {
+        margin: 0;
+        font-size:100px;
+        color: white;
+    }
+
+    .bouton-navbar {
+        padding-bottom: 200px;
+    }
+
+    /*fin du hero*/
+
+    /**MAIN**/
+    .first-part {
+        padding-top: 150px;
+        padding-right: 850px;
+        font-size: x-large;
+        display: flex;
+    }
+
+    .snd-part {
+        padding-top: 200px;
+        padding-right: 100px;
+        font-size: x-large;
+        display: flex;
+    }
+
+    .third-part {
+        padding-top: 200px;
+        padding-right: 850px;
+        font-size: x-large;
+        display: flex;
+    }
+
+    .last-part {
+        padding-top: 200px;        padding-right: 100px;
+        font-size: x-large;
+        display: flex;
+    }
+    
+    .texte1  {
+        text-transform: uppercase;
+        color :white;
+    }
+    
+    .text-about1 {
+        padding-left:50px;
+    }
+
+    .text-about2 {
+        padding-right:50px;
+    }
+
+    .text-about3 {
+        padding-left:50px;
+    }
+
+    .about-infos {
+        padding-left: 700px;
+        text-align: right;
+        padding-right: 10px;
+    }
+    /*fin main*/
+    .footer-logo{
+        width: 10%;
+        padding-left: 40px;
+    }
+    /**FOOTER**/
+
+/*fin du footer*/
+}
+
+
+
+
+@media screen and (min-width: 800px) and (max-width:900px){
+/**HEADER**/
+.logo {
+    padding-top: 5px;
+    width : 15%;
+}
+
+.burger {
+    padding-left: 640px;
+}
+/*fin du header*/
+
+/**HERO**/
+#hero .content {
+    padding-top: 350px;
+    z-index: 10;
+}
+
+.texte-hero {
+    margin: 0;
+    font-size:50px;
+    color: white;
+}
+
+.bouton-navbar {
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+/*fin hero*/
+
+/**MAIN**/
+/**MAIN**/
+.first-part {
+    padding-top: 150px;
+    padding-right: 500px;
+    font-size: large;
+    display: flex;
+}
+
+.snd-part {
+    padding-top: 200px;
+    padding-right: 100px;
+    font-size: large;
+    display: flex;
+}
+
+.third-part {
+    padding-top: 200px;
+    padding-right: 500px;
+    font-size: large;
+    display: flex;
+}
+
+.last-part {
+    padding-top: 200px;        padding-right: 100px;
+    font-size: large;
+    display: flex;
+}
+
+.texte1  {
+    text-transform: uppercase;
+    color :white;
+}
+
+.text-about1 {
+    padding-left:50px;
+}
+
+.text-about2 {
+    padding-left:50px;
+}
+
+.text-about3 {
+    padding-left:50px;
+}
+
+.about-infos {
+    padding-left: 400px;
+    text-align: right;
+    padding-right: 10px;
+}
+/*fin main*/
+/*fin main*/
+}
+
+
+
+@media screen and (max-width: 800px){ 
+    /**HEADER**/
+.logo {
+    padding-top: 5px;
+    width : 14%;
+}
+
+.burger {
+    padding-left: 600px;
+}
+
+
+/*fin du header*/
+
+/**HERO**/
+#hero .content {
+    padding-top: 300px;
+    z-index: 10;
+}
+
+.texte-hero {
+    margin: 0;
+    font-size:50px;
+    color: white;
+}
+
+.bouton-navbar {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+/*fin du hero*/
+
+/**MAIN**/
+.first-part {
+    padding-top: 150px;
+    padding-right: 500px;
+    font-size: large;
+    display: flex;
+}
+
+.snd-part {
+    padding-top: 200px;
+    padding-right: 100px;
+    font-size: large;
+    display: flex;
+}
+
+.third-part {
+    padding-top: 200px;
+    padding-right: 500px;
+    font-size: large;
+    display: flex;
+}
+
+.last-part {
+    padding-top: 200px;        padding-right: 100px;
+    font-size: large;
+    display: flex;
+}
+
+.texte1  {
+    text-transform: uppercase;
+    color :white;
+}
+
+.text-about1 {
+    padding-left:50px;
+}
+
+.text-about2 {
+    padding-left:50px;
+}
+
+.text-about3 {
+    padding-left:50px;
+}
+
+.about-infos {
+    padding-left: 400px;
+    text-align: right;
+    padding-right: 10px;
+}
+/*fin main*/
+    
+}
+/*fin responsive*/
