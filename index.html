@@ -7,33 +7,65 @@
     <title>STROMAE</title>
     <link rel="stylesheet" href="Css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel = 'stylesheet'
+        href = 'Css/bootstrap.min.css'
+  >
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- ======= Header ======= -->
     <header id="header">
-        <div class="container">
             <div class="header-content">
-                <img src="img/logo.jpeg" alt="" class="logo">
-                <div class="burger">
-                    <img src="img/burger.png" alt="">
-                </div>
-            <!-- <nav id="navbar">
-                <ul>
-                    <li><a class="links-navbar" href="#">Accueil</a></li>
-                    <li><a class="links-navbar" href="#">Actualités</a></li>
-                    <li><a class="links-navbar" href="#">Tour</a></li>
-                    <li><a class="links-navbar" href="#">Multitude nouvel album</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>.navbar -->
-
-            <div class="social-links">
-                <!-- <a href="https://www.facebook.com/Virtual-Concept-104100265397828/" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://instagram.com/virtual_c0ncept?utm_medium=copy_link" class="instagram"><i class="bi bi-instagram"></i></a> -->
-            </div>
-            </div>
+                <nav class = 'navbar navbar-expand-lg navbar-light bg-danger'>
+                    <div class = 'container'>
+                      <a class = 'navbar-brand text-white' href = '#'>STROMAE</a>
+                      <button class = 'btn btn-danger navbar-toggler border-3 px-2' type = 'button' data-bs-toggle = 'offcanvas'
+                              data-bs-target = '#offcanvasExample' aria-controls = 'offcanvasExample'
+                      >
+                        <img style = 'width: 30px' src = 'img/text-center.svg' alt = 'menu icon'>
+                      </button>
+                      <div class = 'offcanvas offcanvas-start-lg bg-danger' tabindex = '-1' id = 'offcanvasExample'
+                           aria-labelledby = 'offcanvasExampleLabel'
+                      >
+                        <div class = 'offcanvas-header d-flex d-lg-none'>
+                          <h5 class = 'offcanvas-title text-white' id = 'offcanvasExampleLabel'>STROMAE</h5>
+                          <a href='javascript:void(0) '
+                                  class = 'text-reset p-0'
+                                  data-bs-dismiss = 'offcanvas'
+                                  aria-label = 'close'
+                          >
+                            <svg xmlns = 'http://www.w3.org/2000/svg'
+                                 width = '24'
+                                 height = '24'
+                                 fill = '#FFFFFF'
+                                 class = 'bi bi-x-circle'
+                                 viewBox = '0 0 16 16'
+                            >
+                              <path d = 'M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/>
+                              <path d = 'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/>
+                            </svg>
+                          </a>
+                        </div>
+                        <div class = 'offcanvas-body p-lg-0'>
+                          <ul class = 'navbar-nav'>
+                            <li class = 'nav-item'>
+                              <a class = 'nav-link active' aria-current = 'page' href = '#'>Multitude nouvel album</a>
+                            </li>
+                            <li class = 'nav-item'>
+                              <a class = 'nav-link active' aria-current = 'page' href = '#'>Accueil</a>
+                            </li>
+                            <li class = 'nav-item'>
+                              <a class = 'nav-link active' aria-current = 'page' href = '#'>Actualités</a>
+                            </li>
+                            <li class = 'nav-item'>
+                              <a class = 'nav-link active' aria-current = 'page' href = '#'>Tour</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
         </div>
   </header><!-- End Header -->
 
@@ -148,5 +180,8 @@
         </div>
     </div>
   </footer>
+
+  <script src = 'Js/bootstrap.bundle.min.js'></script>
+
 </body>
 </html>

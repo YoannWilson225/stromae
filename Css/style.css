@@ -32,7 +32,6 @@ li {
     width: 120px;
 }
 
-
 .large {
     border: 2px solid white;
     color: white;
@@ -47,6 +46,12 @@ li {
     background-color: #566388;
     width:0.01px;
     height: 250px;
+}
+
+.offcanvas {
+    background-image: url(../img/back-menu.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .lorem  {
@@ -69,20 +74,10 @@ HEADER
     height:40px;
 }
 
-.header-content {
-    display: flex;
-}
+.navbar-nav li a {
+    color: white !important;
+    }
 
-.logo {
-    padding-left: 15px;
-    padding-top: 15px;
-    width:20%;
-}
-
-.burger {
-    padding-left:300px;
-    padding-top:20px;
-}
 /*fin header*/
 
 /**HERO SECTION**/
@@ -302,16 +297,7 @@ HEADER
         width: 240px;
     }
 
-    .logo {
-        padding-left: 15px;
-        padding-top: 6px;
-        width:8%;
-    }
 
-    .burger {
-        padding-left:1300px;
-        padding-top:20px;
-    }
     /*fin du header*/
 
     /**HERO**/
@@ -355,7 +341,7 @@ HEADER
     }
 
     .last-part {
-        padding-top: 200px;        padding-right: 100px;
+        padding-top: 200px;
         font-size: x-large;
         display: flex;
     }
@@ -397,14 +383,8 @@ HEADER
 
 @media screen and (min-width: 800px) and (max-width:900px){
 /**HEADER**/
-.logo {
-    padding-top: 5px;
-    width : 15%;
-}
 
-.burger {
-    padding-left: 640px;
-}
+
 /*fin du header*/
 
 /**HERO**/
@@ -450,7 +430,8 @@ HEADER
 }
 
 .last-part {
-    padding-top: 200px;        padding-right: 100px;
+    padding-top: 200px;        
+    padding-right: 100px;
     font-size: large;
     display: flex;
 }
@@ -485,15 +466,6 @@ HEADER
 
 @media screen and (max-width: 800px){ 
     /**HEADER**/
-.logo {
-    padding-top: 5px;
-    width : 14%;
-}
-
-.burger {
-    padding-left: 600px;
-}
-
 
 /*fin du header*/
 
@@ -569,4 +541,29 @@ HEADER
 /*fin main*/
     
 }
+
+@media (min-width : 992px) {
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content : end;
+      color           : #4A4849;
+    }
+  }
+  
+  @media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+    }
+  
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      border-right : 1px solid rgba(0, 0, 0, .2);
+      transform    : translateX(-100%);
+    }
+  
+  }
 /*fin responsive*/
