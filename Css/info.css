@@ -1002,6 +1002,7 @@ nav.main-menu {
 
 /*Main*/
 main {
+    padding-top: 100px;
     margin: 10%;
     justify-content: left;
 }
