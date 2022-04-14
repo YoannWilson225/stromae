@@ -971,6 +971,15 @@ nav.main-menu {
 .last_manu:hover {background: transparent;}
 
 
+/* .header-top {
+   background-clip: url('images/back-video.mp4');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    min-height: 980px;
+} */
+
 
 .header {
     position: absolute;
