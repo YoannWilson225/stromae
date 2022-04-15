@@ -1058,26 +1058,17 @@ main {
     .bouton-center{
         text-align:center;
     }
+    
 
-     .bouton-center a {
-         border:none;
-         background-color: white;
-         color:black;   
-         font-size: 25px;
-         text-align:center;
-         width:400px;
-     }
+    .bouton-center input {
+        text-align: center;
+    }
+    
 
      .acheter{
          border:none;
          background-color: white;
          color:black;
-     }
-
-     .bouton-center a:hover {
-        background-color: white;
-        color:black;  
-         font-size:27px
      }
 
 
