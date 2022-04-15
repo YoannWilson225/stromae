@@ -26,7 +26,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- style css -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tour.css">
   <!-- Responsive-->
   <link rel="stylesheet" href="css/responsive.css">  
   <!-- Scrollbar Custom CSS -->
@@ -42,13 +42,14 @@
 
 <body class="main-layout">
   <!-- loader  -->
-  <div class="loader_bg">
+  <!-- <div class="loader_bg">
     <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-  </div>
+  </div> -->
   <!-- end loader -->
   <!-- header -->
-  <header> 
-   <!-- header inner -->
+  <header>
+  <div class="filtre"></div>
+    <!-- header inner -->
     <div class="header-top">
       <div class="header">
         <div class="container">
@@ -66,11 +67,11 @@
               
                <div class="menu-area">
                 <div class="limit-box">
-                  <nav class="main-menu">
+                  <nav class="main-menu ">
                     <ul class="menu-area-main">              
                        <li> <a href="album.html">Multitude nouvel album</a> </li>
-                      <li  class="active"><a href="#">Accueil </a> </li>
-                      <li> <a href="information.html">Actualités</a> </li>
+                      <li> <a href="index.html">Accueil </a> </li>
+                      <li class="active"> <a href="#">Actualités</a> </li>
                       <li> <a href="tour.html">Tour</a> </li>
                     </ul>
                    </nav>
@@ -84,113 +85,111 @@
 
      <!-- end header -->
      <section class="slider_section">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="carousel-caption">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="text-bg">
-                      <h1>MULTITUDE</h1>
-                      <a href="album.html">Music</a> <a href="tour.html">Tour </a> <a href="information.html">Actualités</a>
-                    </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-bg">
+                    <h1>MULTITUDE</h1>
+                    <a href="album.html">Music</a> <a href="tour.html">Tour </a> <a href="information.html">Actualités</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-   </div>
+      </div>
+ </div>
 </section>
 </div>
 </header>
 
-
-
-<!-- about  -->
-<div id="about" class="about">
-  <div class="container">
-    <div class="row display_boxflex">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="about-box">
-          <figure><img src="images/about.png" alt="#" /></figure>
-        </div>
-      </div>
-      <div id="flex" class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="about-box">
-          <div class="pad-left">
-            <p>Les nouvelles du jour</p>
-            <h2>MULTITUDE <br>Musique </h2>
-            <a href="Javascript:void(0)">Découvrir</a>
-          </div>
-          <p>Et si on célébrait ceux qui n'célèbrent pas? <br>Pour une fois, j'aimerais lever mon verre à ceux <br> qui n'en ont pas</p>
-        </div>
-        <div class="line"></div>
-      </div>
-    </div>
-
-  </div>
-</div>
-<!-- end abouts -->
-
-<!-- upcoming -->
-<div id="upcoming" class="upcoming">
-  <div class="container-fluid padding_left3">
-    <div class="row display_boxflex">
-      <div id="flex" class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-        <div class="line"></div>
-       <div class="box_text">
-          <div class="titlepage">
-            <p>Les clips et les singles</p>
-            <h2>MULTITUDE<br>Disponible </h2>
-          </div>
-          <a href="Javascript:void(0)" class="space">Achetez</a>
-          <p>Découvrez ici les toutes dernières sorties musicales de Stromae et achetez son dernier album
-        </div>
-      </div> 
-      <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 border_right">
-         <div class="upcomimg">
-           <figure><img src="images/up.png" alt="#"/></figure>
-        </div>
-          </div>
-  </div>
-    </div>
-</div>
-<!-- end upcoming -->
-
-<!-- Gallery -->
-
-
-<div id="gallery" class="Gallery">
-  <div class="container"> 
-    <div class="row display_boxflex">
-      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <div class="Gallery_img">
-              <figure><img src="images/Gallery4.png" alt="#"/></figure>
+<main>
+  <div id="about" class="about">
+    <div class="container">
+      <div class="row display_boxflex">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div class="about-box">
+            <div class="pad-left">
+              <h2>MULTITUDE <br>Tour</h2>
             </div>
           </div>
         </div>
-      </div>
-      <div id="flex" class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-        <div class="Gallery_text">
-          <div class="titlepage">
-            <h2>EVENEMENT Concert</h2>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div class="about-box">
+            <figure><img src="images/up.png" alt="#" /></figure>
           </div>
-          <p>Commandez l'album pour tenter de gagner une place VIP au concert stomae MULTITUDE</p>
-          <a href="Javascript:void(0)">Commandez</a>
         </div>
-        <div class="line"></div>
       </div>
     </div>
   </div>
+  <!-- end abouts -->
+
+<div class="bouton-center">
+  <a class="btn btn-primary" href="#"><i class="bi bi-geo-alt-fill"></i>  Recherche par ville</a>
 </div>
+  <div class="firebase-item">
+    <div class="tableau">
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td><span class="bold">24</span><small class="cot">Mar<br>2023</small></td>
+            <td>Coachella / Californie, Indio, USA</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">29</span><small class="cot">Mar<br>2023</small></td>
+            <td>Coachella / Californie, Indio, USA</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">30</span><small class="cot">Mar<br>2023</small></td>
+            <td>Aluna Festival / Ruoms, France</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">31</span><small class="cot">Mar<br>2023</small></td>
+            <td>Inversion / Lyon, France</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">31</span><small class="cot">Mar<br>2023</small></td>
+            <td>Werchter Boutique / Werchter, Belgique</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">31</span><small class="cot">Mar<br>2023</small></td>
+            <td>Lac du Malsaucy / Belfort, France</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">31</span><small class="cot">Mar<br>2023</small></td>
+            <td>NOS AliveFestival/ Lisbonne, Portugal</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">31</span><small class="cot">Mar<br>2023</small></td>
+            <td>BBK Live Festival/ Bilbao, Spain</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+          <tr>
+            <td><span class="bold">31</span><small class="cot">Mar<br>2023</small></td>
+            <td>Les Ardentes/ Liège, Belgium</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-stromae-multitude-tour.html"><button class="acheter">Acheter des billets</button></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<!-- end Gallery --> 
+  <div class="foot-btn">
+    <button class="footbouton"><a href="tour.html">Précédent</a></button>
+  </div>
+</main>
 
-
-    <!--  footer -->
+<!--  footer -->
     <footer id="footer">
       <div class="content">
           <div class="footer-content">
@@ -224,6 +223,7 @@
     </footer>
           <!-- end footer -->
           <!-- Javascript files-->
+          <script src="js/index.js"></script>
           <script src="js/jquery.min.js"></script>
           <script src="js/popper.min.js"></script>
           <script src="js/bootstrap.bundle.min.js"></script>

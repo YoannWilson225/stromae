@@ -1002,32 +1002,110 @@ nav.main-menu {
 
 /*Main*/
 main {
-    margin: 10%;
     justify-content: left;
 }
 
-.img-responsive {
-    text-align:center;
-}
+/** about section **/
+.about {
+    padding: 110px 0;
+    }
+    
+    #flex {
+        justify-content:space-around;
+        display:flex;
+    }
+    
+    .display_boxflex {
+         display: flex;
+         
+    }
+     
+
+     .about .about-box h2 {
+        font-weight: 300;
+         margin-top: 150px;
+         text-align: center;
+         color: white;
+         line-height: 70px;
+         font-size: 60px;
+     }
+     
+     .about .about-box p {
+         font-size: 17px;
+         line-height: 28px;
+         color: #000;
+         padding: 35px 0px;
+    }
+    
+     .about .about-box a {
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+     }
+    
+    
+     .about .about-box a:hover{ 
+         font-size: 20px;
+     }
+     
+    /** end about section **/
+    .bouton-center{
+        text-align:center;
+    }
+
+     .bouton-center a {
+         border:none;
+         background-color: white;
+         color:black;   
+         font-size: 25px;
+         text-align:center;
+         width:400px;
+     }
+
+     .acheter{
+         border:none;
+         background-color: white;
+         color:black;
+     }
+
+     .bouton-center a:hover {
+        background-color: white;
+        color:black;  
+         font-size:27px
+     }
 
 
-.title {
-    font-size: 30px;
-    width: 220px;
-    color:black;
-    text-transform: uppercase;
-    background-color: white;
-}
+     .bold {
+         font-size:25px;
+         font-weight:700;
+     }
 
 
-.paragraph {
-    font-size:20px
-}
+     .firebase-item {
+         padding-top:200px;
+         font-size:19px;
+         text-align:center;
+     }
 
-.explain h2 {
-    font-weight : 700;
-}
+     .foot-btn {
+         text-align: center;
+         padding-top:100px;
+     }
 
+     .footbouton {
+        border:none;
+        background-color: white;
+        color:black;   
+        font-size: 25px;
+        text-align:center;
+        width:300px;
+     }
 /*fin du main*/
 
 #footer {
